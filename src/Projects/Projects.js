@@ -125,18 +125,29 @@ const Projects = () => {
           <div className="card-content">
             <p className="card-number">001</p>
             <div className="card-info">
-              <h3 className="card-heading">React-Based Calculator</h3>
-              <p className="card-text">ft. React Testing Library</p>
+              <h3 className="card-heading">Copartes eCommerce App</h3>
+              <p className="card-text">ft. React-Native</p>
             </div>
             <div className="card-btn">
-              <a href="https://oscarparedez.herokuapp.com/calculator/" target="_blank" rel="noreferrer" className="button">SEE PROJECT</a>
-              {/* <button type="button">SEE PROJECT</button> */}
+              <a href="https://myalbum.com/album/TBUvKf6QfWCYd6/" target="_blank" rel="noreferrer" className="button">SEE PROJECT</a>
             </div>
           </div>
         </div>
         <div className="card" data-aos="fade-up">
           <div className="card-content">
             <p className="card-number">002</p>
+            <div className="card-info">
+              <h3 className="card-heading">React-Based Calculator</h3>
+              <p className="card-text">ft. React Testing Library</p>
+            </div>
+            <div className="card-btn">
+              <a href="https://oscarparedez.herokuapp.com/calculator/" target="_blank" rel="noreferrer" className="button">SEE PROJECT</a>
+            </div>
+          </div>
+        </div>
+        <div className="card" data-aos="fade-up">
+          <div className="card-content">
+            <p className="card-number">003</p>
             <div className="card-info">
               <h3 className="card-heading">Github Pages Replica</h3>
               <p className="card-text">Project based in React with the intention of practicing.</p>
@@ -148,25 +159,13 @@ const Projects = () => {
         </div>
         <div className="card" data-aos="fade-up">
           <div className="card-content">
-            <p className="card-number">003</p>
-            <div className="card-info">
-              <h3 className="card-heading">React Maze Game</h3>
-              <p className="card-text">React game that involves a fetch from an external API.</p>
-            </div>
-            <div className="card-btn">
-              <a href="https://oscarparedez.herokuapp.com/maze/" target="_blank" rel="noreferrer" className="button">SEE PROJECT</a>
-            </div>
-          </div>
-        </div>
-        <div className="card" data-aos="fade-up">
-          <div className="card-content">
             <p className="card-number">004</p>
             <div className="card-info">
-              <h3 className="card-heading">Music Service</h3>
-              <p className="card-text">Simple front-end but the ideal backend.</p>
+              <h3 className="card-heading">Todo App</h3>
+              <p className="card-text">Simple Angular-based todo application.</p>
             </div>
             <div className="card-btn">
-              <a href="https://mysitebasesproyecto.herokuapp.com/" target="_blank" rel="noreferrer" className="button">SEE PROJECT</a>
+              <a href="https://todoapp-oscarparedez.netlify.app/" target="_blank" rel="noreferrer" className="button">SEE PROJECT</a>
             </div>
           </div>
         </div>

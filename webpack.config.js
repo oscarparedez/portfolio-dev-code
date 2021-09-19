@@ -4,7 +4,7 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin({
     filename: 'styles.css',
   })],
-  mode: 'production',
+  mode: 'development',
   devServer: {
     contentBase: 'dist',
   },
@@ -23,7 +23,7 @@ module.exports = {
         use: 'file-loader',
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|pdf)$/i,
         use: [
           {
             loader: 'file-loader',

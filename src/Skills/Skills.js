@@ -3,8 +3,10 @@ import { css } from '@linaria/core'
 import Aos from 'aos'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faCss3, faGithub, faReact, faSellsy, faPython, faPhp,
+  faCss3, faGithub, faReact, faSellsy, faPython, faPhp, faAngular,
 } from '@fortawesome/free-brands-svg-icons'
+import { SiWebpack } from 'react-icons/si'
+import { IoLogoJavascript } from 'react-icons/io5'
 import SecurityRoundedIcon from '@material-ui/icons/SecurityRounded'
 import SportsSoccerIcon from '@material-ui/icons/SportsSoccer'
 import FlightLandIcon from '@material-ui/icons/FlightLand'
@@ -157,11 +159,13 @@ const Skills = () => {
           <div className="codeSkillsContainer">
             <ul>
               <li><FontAwesomeIcon icon={faCss3} className="moveMeRight" /> HTML / CSS / Responsive Design</li>
-              <li><FontAwesomeIcon icon={faReact} className="moveMeRight" /> Javascript / JQuery / ReactJS</li>
+              <li><IoLogoJavascript className="moveMeRight" /> Javascript / JQuery</li>
+              <li><FontAwesomeIcon icon={faReact} className="moveMeRight" /> React / React Native</li>
+              <li><FontAwesomeIcon icon={faAngular} className="moveMeRight" /> Angular</li>
               <li><FontAwesomeIcon icon={faSellsy} className="moveMeRight" /> Linaria / Emotion</li>
-              <li><FontAwesomeIcon icon={faSellsy} className="moveMeRight" /> Webpack</li>
+              <li><SiWebpack className="moveMeRight" /> Webpack</li>
               <li><SecurityRoundedIcon className="moveMeRight" /> React Testing Library / Jest / Enzyme</li>
-              <li><FontAwesomeIcon icon={faPython} className="moveMeRight" /> Python / Django</li>
+              <li><FontAwesomeIcon icon={faPython} className="moveMeRight" /> Python / Django / Django Rest Framework</li>
               <li><FontAwesomeIcon icon={faPhp} className="moveMeRight" /> PHP / Codeigniter</li>
               <li><FontAwesomeIcon icon={faGithub} className="moveMeRight" /> Git / Github / GitLab</li>
             </ul>

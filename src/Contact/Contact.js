@@ -7,7 +7,7 @@ import Typical from 'react-typical'
 import 'aos/dist/aos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faCodepen, faGithub, faInstagram, faDiscord,
+  faLinkedin, faGithub, faDiscord,
 } from '@fortawesome/free-brands-svg-icons'
 import avatar from './avatar.png'
 
@@ -136,8 +136,7 @@ const Contact = () => {
       <div className="contactArea">
         <ul className="socialMedia">
           <a href="https://github.com/oscarparedez/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faGithub} /></li></a>
-          <a href="https://www.instagram.com/oscar_paredez/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faInstagram} /></li></a>
-          <a href="https://codepen.io/oparedez/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faCodepen} /></li></a>
+          <a href="https://www.linkedin.com/in/oscar-paredez-593067179/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faLinkedin} /></li></a>
           <a href="https://discord.com/users/677678932564377602" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faDiscord} /></li></a>
         </ul>
         <h6>Developed by Oscar Paredez - 2021</h6>

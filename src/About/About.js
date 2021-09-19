@@ -4,6 +4,7 @@ import { css } from '@linaria/core'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import image from './self.JPG'
+import cv from './cv-oscar-paredez.pdf'
 
 const aboutContainer = css`
     padding-top:10vh;
@@ -62,7 +63,24 @@ const aboutContainer = css`
                 line-height:25px;
                 text-align:justify;
             }
-        }
+            .button {
+              text-decoration: none;
+              border:none;
+              border:solid 1px navy;
+              border-radius: 25px;
+              background: transparent;
+              padding: 15px 25px;
+              font-family: 'Lato', sans-serif;
+              transition: 0.15s;
+              &:hover {
+                border:none;
+                background-color: navy;
+                border-color:white;
+                color:white;
+                cursor:pointer;
+              }
+            }
+          }
     }
     .imageContainer {
         width:30%;
@@ -133,6 +151,7 @@ const About = () => {
               Currently, I am in my fifth semester of Computer Science Engineering degree.<br /><br />
               One of my rules is to never stop learning and be somehow productive every day. <br /><br />
             </p>
+            <a href={cv} download="cv-oscar-paredez.pdf" className="button">Download Resume</a>
           </div>
         </div>
         <div className="imageContainer" data-aos="zoom-in">
