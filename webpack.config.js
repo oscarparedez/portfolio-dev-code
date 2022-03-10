@@ -4,7 +4,7 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin({
     filename: 'styles.css',
   })],
-  mode: 'development',
+  mode: 'production',
   devServer: {
     contentBase: 'dist',
   },
